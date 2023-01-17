@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+    <!-- css do projeto -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!-- js do projeto -->
+    <script src="script/scripit.js"></script>
+
+</head>
+<body>
+    <div class="todo-corpo">
+      <header>
+        <h1> Lista de tarefa </h1>
+      </header>
+      <form id="todo-form">
+        <p>Adicione uma tarefa:</p>
+        <div class="form-control">
+            <input type="text" id="todo-input" placeholder="O que você vai fazer?">
+            <button type="submit">
+               <i class="fa fa-plus"></i> 
+            </button>
+        </div>
+      </form>
+      <form id="edit-form">
+        <p> Edite a sua tarefa:</p>
+        <div class="form-control">
+           <input type="text" id="todo-input">
+           <button type="submit"> 
+            <i class="fa fa-clipboard" aria-hidden="true"></i>
+           </button>
+        </div>
+        <button id="cancelar-"> Cancelar</button>
+      </form>
+
+    </div>
+</body>
+</html>
